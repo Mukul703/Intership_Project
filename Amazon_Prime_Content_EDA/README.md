@@ -2,7 +2,7 @@
 
 ---
 
-## ## Table of Contents
+## Table of Contents
 - [Objective](#objective)
 - [Data Preparation](#data-preparation)
 - [Visualization](#visualization)
@@ -12,7 +12,7 @@
 
 ---
 
-## ## Objective
+## Objective
 
 Performed **Exploratory Data Analysis (EDA)** on Amazon Prime Video’s dataset to extract **actionable insights** supporting **content strategy, audience engagement, and data-driven decisions** to maximize subscriptions and retention.
 
@@ -24,7 +24,7 @@ Performed **Exploratory Data Analysis (EDA)** on Amazon Prime Video’s dataset 
 
 ---
 
-## ## Data Preparation
+## Data Preparation
 
 - **Merged** `titles.csv` and `credits.csv` on `id` to create a unified dataset for analysis.
 - **Null Handling:**
@@ -39,9 +39,9 @@ The dataset was made **clean, consistent, and ready for EDA**.
 
 ---
 
-## ## Visualization
+## Visualization
 
-### **Univariate Analysis**
+**Univariate Analysis**
 - Box Plot: Runtime distribution
 - Box Plot: IMDb Score distribution
 - Count Plot: Content Type (Movies/Shows)
@@ -51,7 +51,7 @@ The dataset was made **clean, consistent, and ready for EDA**.
 - Bar Plot: Top 5 Production Countries
 - Histogram: IMDb Score distribution
 
-### **Bivariate & Multivariate Analysis**
+**Bivariate & Multivariate Analysis**
 - Scatter Plot: TMDb Popularity vs IMDb Score
 - Violin Plot: IMDb Scores across Movies/Shows
 - Line Plot: Seasons vs Release Year
@@ -60,7 +60,7 @@ The dataset was made **clean, consistent, and ready for EDA**.
 
 ---
 
-## ## Key Insights
+## Key Insights
 
 - **Content Type:** Movies dominate the catalog; TV shows focus on short-format and mini-series.
 - **Genres:** Drama, Comedy, Action are the most frequent.
@@ -73,7 +73,7 @@ The dataset was made **clean, consistent, and ready for EDA**.
 
 ---
 
-## ## Conclusion
+## Conclusion
 
 This **EDA project on Amazon Prime Video’s dataset** provided clear, actionable insights to:
 
@@ -88,7 +88,7 @@ Future exploration may include:
 
 ---
 
-## ## What I Learned
+## What I Learned
 
 - End-to-end **EDA workflow management in Google Colab**.
 - Advanced **data wrangling, null handling, and cleaning techniques**.
