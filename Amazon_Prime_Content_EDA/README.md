@@ -1,4 +1,4 @@
-# 📺 **Exploratory Data Analysis on Amazon Prime Video Content**
+# **Exploratory Data Analysis on Amazon Prime Video Content**
 
 ---
 
@@ -43,6 +43,7 @@ The dataset was made **clean, consistent, and ready for EDA**.
 
 **Univariate Analysis**
 - Box Plot: Runtime distribution
+
 - Box Plot: IMDb Score distribution
 - Count Plot: Content Type (Movies/Shows)
 - Histogram: Release Year distribution
