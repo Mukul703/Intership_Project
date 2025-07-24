@@ -1,114 +1,108 @@
-Exploratory Data Analysis on Amazon Prime Video Content
+# 📺 **Exploratory Data Analysis on Amazon Prime Video Content**
 
-Project Summary
-This project performs Exploratory Data Analysis (EDA) on Amazon Prime Video’s content dataset to derive actionable insights for content strategy, audience engagement, and data-driven business planning.
+---
 
-In the competitive streaming landscape, understanding what resonates with viewers and identifying trends is critical for driving subscriptions and retention.
+## 📝 **Project Summary**
 
-Business Objective
-To uncover insights from Amazon Prime Video data that help:
+Performed **Exploratory Data Analysis (EDA)** on Amazon Prime Video’s dataset to derive **actionable insights for content strategy, audience engagement, and data-driven planning**.
 
-Refine content strategy
+---
 
-Enhance viewer engagement
+## 🚀 **Business Objective**
 
-Support data-driven decisions to maximize subscriptions and retention
+To uncover insights that help:
+- Refine **content strategy**
+- Enhance **viewer engagement**
+- Support **data-driven decisions** for maximizing subscriptions and retention
 
-Tools Used
-Google Colab Notebook (Python, Pandas, Matplotlib, Seaborn)
+---
 
-CSV data files (titles.csv, credits.csv)
+## 🛠️ **Tools Used**
 
-📂 Data Source & Domain
-Domain: OTT Streaming / Entertainment Analytics
+- **Google Colab Notebook** (Python, Pandas, Matplotlib, Seaborn)
+- **CSV data source** (`titles.csv`, `credits.csv`)
 
-Data Source: Public CSV datasets
+---
 
-Files:
+## 📂 **Data Source & Domain**
 
-titles.csv: Title details (type, genre, ratings, runtime)
+- **Domain:** OTT Streaming / Entertainment Analytics
+- **Source:** Public CSV datasets
+- Merged on `id` to create a unified analysis-ready dataset.
 
-credits.csv: Title credits (actors, directors, characters)
+---
 
-The datasets were merged using id, cleaned systematically, and prepared for EDA.
+## 🧹 **Data Preparation**
 
-🧹 Data Preparation
-Checked and handled null values using appropriate placeholders and medians.
+- Checked and handled **null values** systematically
+- Removed **168 duplicate rows**
+- Converted columns (`seasons`, `imdb_votes`) to `int64`
+- Checked logical consistency in `runtime`, `imdb_score`, `tmdb_score`
+- Merged datasets to form `prime_data` for EDA
 
-Removed 168 duplicate rows.
+---
 
-Converted relevant columns (seasons, imdb_votes) to int64.
+## 📊 **Data Visualization & Analysis**
 
-Ensured logical consistency in runtime, imdb_score, and tmdb_score.
+### **Univariate Analysis**
+- 📦 Box Plot: Runtime distribution
+- 📦 Box Plot: IMDb Score distribution
+- 🟩 Count Plot: Content Type (Movies/Shows)
+- 📈 Histogram: Release Year
+- 📊 Bar Plot: Season-wise distribution
+- 🟦 Bar Plot: Age Certification
+- 🌍 Bar Plot: Top 5 Production Countries
+- 📈 Histogram: IMDb Score
 
-Merged titles.csv and credits.csv to form a unified dataset for robust EDA.
+### **Bivariate & Multivariate Analysis**
+- 🔵 Scatter Plot: TMDb Popularity vs IMDb Score
+- 🎻 Violin Plot: IMDb Scores across Movies/Shows
+- 📈 Line Plot: Seasons vs Release Year
+- 🌡️ Correlation Heatmap
+- 🟧 Pair Plot for numeric features
 
-📊 Data Visualization & Analysis
-Univariate Analysis
-Box Plot: Runtime distribution
+---
 
-Box Plot: IMDb score distribution
+## 🔍 **Key Insights**
 
-Count Plot: Content type (Movies vs TV Shows)
+✅ Movies dominate, with TV shows focusing on short formats and mini-series  
+✅ Drama, Comedy, Action are top genres  
+✅ Post-2010, content additions increased significantly  
+✅ Most runtimes: 90–110 minutes  
+✅ IMDb ratings typically 5.5–7  
+✅ Majority content targets 13+ and 16+ audiences  
+✅ Top production regions: US, UK, India  
+✅ IMDb votes moderately correlate with scores; TMDb popularity shows weak correlation
 
-Histogram: Release year distribution
+---
 
-Bar Plot: Season-wise distribution
+## 📈 **Actionable Strategy for Growth**
 
-Bar Plot: Age certification distribution
+- Focus on **high-demand genres** while testing underrepresented categories
+- Add **recent content** with viewer-aligned runtimes
+- Prioritize **teen/young adult segments**
+- Expand **regional content** for market growth
+- Leverage **high IMDb-rated titles**
+- Prioritize **quality over mere popularity**
 
-Bar Plot: Top 5 production countries
+---
 
-Histogram: IMDb score distribution
+## ✅ **Conclusion**
 
-Bivariate & Multivariate Analysis
-Scatter Plot: TMDb popularity vs IMDb score
+This EDA uncovered insights supporting **content alignment with audience interests, quality improvement, and regional diversification** for **sustainable growth and retention** on Amazon Prime Video.
 
-Violin Plot: IMDb scores across Movies vs TV Shows
+Future work:
+- Explore underrepresented genres
+- Regional performance analysis
+- Content lifecycle and churn trends
 
-Line Plot: Seasons vs Release Year
+---
 
-Correlation Heatmap: Feature relationships
+## 🧠 **What I Learned**
 
-Pair Plot: Visual exploration of numeric features
+- Advanced **EDA workflow using Google Colab**
+- Effective **data wrangling & null handling**
+- Visual storytelling for **business-focused insights**
+- Understanding **OTT platform content strategy**
 
-🔍 Key Insights
-✅ Content Focus: Movies dominate the catalog, with TV shows focusing on short-format and mini-series.
-✅ Genre Trends: Drama, Comedy, and Action are most common, reflecting strong viewer demand.
-✅ Content Freshness: Significant content addition post-2010 keeps the catalog contemporary.
-✅ Runtime Patterns: Most titles are 90–110 minutes, aligning with viewer preferences.
-✅ Ratings Insights: IMDb ratings typically range 5.5–7, indicating moderate to good reception.
-✅ Audience Targeting: Content primarily targets 13+ and 16+ segments.
-✅ Regional Focus: US, UK, and India lead in content production, enabling regional strategies.
-✅ Correlation Findings: IMDb votes moderately correlate with IMDb scores (~0.26–0.62), while TMDb popularity shows a weak correlation, emphasizing content quality over popularity.
-
-📈 Actionable Strategy for Growth
-Continue investing in high-demand genres while testing underrepresented categories.
-
-Add recent content with optimal runtimes and prioritize teen/young adult segments.
-
-Expand regional content in key markets to boost engagement.
-
-Leverage high IMDb-rated titles for platform reputation and sustained interest.
-
-Prioritize quality over popularity, ensuring discoverability and long-term value.
-
-✅ Conclusion
-This EDA on Amazon Prime Video’s dataset uncovered insights supporting content alignment with audience interests, quality improvement, and regional diversification to drive sustainable growth and viewer retention.
-
-Future work can explore:
-
-Underrepresented genre testing
-
-Regional performance trends
-
-Content lifecycle and churn analysis
-
-🧠 What I Learned
-Advanced EDA workflow management on Google Colab.
-
-Effective data wrangling and null handling for real-world datasets.
-
-Applying data visualization to extract clear business insights.
-
-Understanding content strategy analysis for OTT platforms.
+---
