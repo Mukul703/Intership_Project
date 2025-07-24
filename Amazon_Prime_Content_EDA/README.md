@@ -65,14 +65,14 @@ To uncover insights that help:
 
 ## **Key Insights**
 
-✅ Movies dominate, with TV shows focusing on short formats and mini-series  
-✅ Drama, Comedy, Action are top genres  
-✅ Post-2010, content additions increased significantly  
-✅ Most runtimes: 90–110 minutes  
-✅ IMDb ratings typically 5.5–7  
-✅ Majority content targets 13+ and 16+ audiences  
-✅ Top production regions: US, UK, India  
-✅ IMDb votes moderately correlate with scores; TMDb popularity shows weak correlation
+ Movies dominate, with TV shows focusing on short formats and mini-series  
+ Drama, Comedy, Action are top genres  
+ Post-2010, content additions increased significantly  
+ Most runtimes: 90–110 minutes  
+ IMDb ratings typically 5.5–7  
+ Majority content targets 13+ and 16+ audiences  
+ Top production regions: US, UK, India  
+ IMDb votes moderately correlate with scores; TMDb popularity shows weak correlation
 
 ---
 
