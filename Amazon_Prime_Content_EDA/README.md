@@ -40,7 +40,7 @@ The dataset was made **clean, consistent, and ready for EDA**.
 ---
 
 ## Visualization
-
+Note: All visualizations can be viewed interactively in the uploaded Amazon_Prime_Video_EDA.ipynb notebook.
 **Univariate Analysis**
 - Box Plot: Runtime distribution
 
