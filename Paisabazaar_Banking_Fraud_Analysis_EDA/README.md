@@ -68,26 +68,26 @@ The visualization workflow follows a structured **UBM** approach:
 ---
 
 ### 2) Key Univariate Charts
-📌 *(Add your image here)*  
-![Univariate Charts](images/univariate_charts.png)
+
+<img src="Screenshots/Delayed_payments_vs_Credit_score.png" width="750">
 
 ---
 
 ### 3) Key Bivariate Relationship Charts
-📌 *(Add your image here)*  
-![Bivariate Charts](images/bivariate_charts.png)
+
+<img src="Screenshots/Doutstanding_debt_vs_credit_score.png" width="750">
 
 ---
 
 ### 4) Correlation Heatmap
-📌 *(Add your image here)*  
-![Correlation Heatmap](images/heatmap.png)
+
+<img src="Screenshots/correlation_heatmap.png" width="750">
 
 ---
 
 ### 5) Pair Plot (Multivariate View)
-📌 *(Add your image here)*  
-![Pair Plot](images/pairplot.png)
+
+<img src="Screenshots/pair_plot.png" width="750">
 
 ---
 
