@@ -76,14 +76,14 @@ The visualization workflow follows a structured **UBM** approach:
 
 ## 📊 Visual Results (UBM Order)
 
-### ✅ U — Univariate Analysis
+### U — Univariate Analysis
 
 #### 1) Credit Score Distribution (Target Variable)
 <img src="Screenshots/Credit_Score_Distribution.png" width="750">
 
 ---
 
-### ✅ B — Bivariate Analysis
+### B — Bivariate Analysis
 
 #### 2) Delayed Payments vs Credit Score (Risk Signal)
 <img src="Screenshots/Delayed_payments_vs_Credit_score.png" width="750">
@@ -105,7 +105,7 @@ The visualization workflow follows a structured **UBM** approach:
 
 ---
 
-### ✅ M — Multivariate Analysis
+### M — Multivariate Analysis
 
 #### 6) Correlation Heatmap (Feature Relationships)
 <img src="Screenshots/correlation_heatmap.png" width="750">
