@@ -43,16 +43,16 @@ The dataset was prepared for analysis through the following steps:
 ## 📈 EDA Approach (UBM Framework)
 The visualization workflow follows a structured **UBM** approach:
 
-### ✅ U — Univariate Analysis
+### U — Univariate Analysis
 - Distribution of target and key numerical features  
 - Customer segmentation overview  
 
-### ✅ B — Bivariate Analysis
+### B — Bivariate Analysis
 - Numerical vs Credit Score (boxplots)
 - Categorical vs Credit Score (countplots / stacked charts)
 - Numerical vs Numerical (scatter / density plots)
 
-### ✅ M — Multivariate Analysis
+### M — Multivariate Analysis
 - Correlation heatmap
 - Pair plot
 - Multi-feature segmentation visuals
@@ -92,17 +92,20 @@ The visualization workflow follows a structured **UBM** approach:
 
 ---
 
-## 🔍 Key Insights
-- Most customers fall under the **Standard** credit score category, making it the largest segment for improvement and optimization
-- **Delayed payments** strongly differentiate poor credit profiles and act as a major risk indicator
-- Customers with higher **outstanding debt** are more likely to fall into weaker credit score categories
-- A higher **number of active loans** is commonly associated with **Poor** credit scores
-- **Credit mix** shows strong separation: good mix aligns with better credit scores, while bad mix aligns with poor credit profiles
-- **Income alone is not a reliable indicator**, as high-income outliers also appear in lower credit score groups
+## Key Insights
+
+- **Standard is the biggest segment (~53%)**, so Paisabazaar can create the highest business impact by improving decisions and offers for this group instead of focusing only on extreme Good/Poor customers.  
+
+- **Payment behavior is the strongest risk signal** — *Poor* customers show much higher delayed payments (**median ~17–18**) vs *Good* (**~7–8**), making it the best variable for early warning and stricter credit rules.  
+
+- **Debt + Loan exposure indicates credit stress** — customers with more active loans (**Poor median ~5 vs Good ~2**) and higher outstanding debt are consistently linked with weaker scores, supporting stronger limit control and risk-based approvals.  
+
+- **Credit mix is a clean segment separator** — *Good credit mix → Good score* and *Bad credit mix → Poor score*, making it useful for consistent profiling and better product recommendations.  
+
 
 ---
 
-## ✅ Business Recommendations (Solution)
+## Business Recommendations
 - Prioritize **repayment behavior signals** (delays, due-date patterns) while assessing credit risk
 - Apply a **Debt Stress Check** using outstanding debt + loan exposure to reduce default risk
 - Focus on uplifting the **Standard** segment using structured credit upgrades and risk-aware product recommendations
