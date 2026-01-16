@@ -63,7 +63,7 @@ The visualization workflow follows a structured **UBM** approach:
 
 ### 1) Credit Score Distribution
 
-<img src="Screenshots/credit_score_distribution.png" width="750">
+<img src="Screenshots/Credit_Score_Distribution.png" width="750">
 
 ---
 
