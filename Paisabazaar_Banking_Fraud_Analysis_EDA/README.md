@@ -60,11 +60,10 @@ The visualization workflow follows a structured **UBM** approach:
 ---
 
 ## 📊 Visual Results
-> Replace the placeholders below with your actual chart images.
 
 ### 1) Credit Score Distribution
-📌 *(Add your image here)*  
-![Credit Score Distribution](images/credit_score_distribution.png)
+
+<img src="Screenshots/credit_score_distribution.png" width="750">
 
 ---
 
