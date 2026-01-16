@@ -7,6 +7,8 @@
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)]()
 [![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)]()
 [![Credit Risk](https://img.shields.io/badge/Credit%20Risk-Analysis-red)]()
+[![EDA](https://img.shields.io/badge/EDA-Exploratory%20Data%20Analysis-blueviolet)]()
+[![Data Visualization](https://img.shields.io/badge/Data%20Visualization-Insights-informational)]()
 
 # 📊 Paisabazaar Credit Score EDA | Customer Credit Risk Insights
 
