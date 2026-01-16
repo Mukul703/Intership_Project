@@ -59,7 +59,7 @@ The visualization workflow follows a structured **UBM** approach:
 
 ---
 
-## 📊 Visual Results (Screenshots)
+## 📊 Visual Results
 > Replace the placeholders below with your actual chart images.
 
 ### 1) Credit Score Distribution
