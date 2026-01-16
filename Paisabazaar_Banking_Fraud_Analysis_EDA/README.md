@@ -91,7 +91,7 @@ The visualization workflow follows a structured **UBM** approach:
 ---
 
 #### 3) Outstanding Debt vs Credit Score (Debt Burden)
-<img src="Screenshots/Doutstanding_debt_vs_credit_score.png" width="750">
+<img src="Screenshots/outstanding_debt_vs_credit_score.png" width="750">
 
 ---
 
