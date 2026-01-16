@@ -56,52 +56,67 @@ The dataset was prepared for analysis through the following steps:
 The visualization workflow follows a structured **UBM** approach:
 
 ### U — Univariate Analysis
-- Distribution of target and key numerical features  
-- Customer segmentation overview  
+- Credit Score distribution (Target variable)
+- Key feature distributions (Age, Income, Outstanding Debt, Credit Utilization, Delayed Payments)
 
 ### B — Bivariate Analysis
-- Numerical vs Credit Score (boxplots)
-- Categorical vs Credit Score (countplots / stacked charts)
-- Numerical vs Numerical (scatter / density plots)
+- Credit Score vs numeric features (Boxplots)
+  - Delayed Payments vs Credit Score  
+  - Outstanding Debt vs Credit Score  
+- Credit Score vs categorical features (Countplot / Grouped Bar)
+  - Credit Mix vs Credit Score  
+- Trend-based comparison (Line Plot)
+  - Credit Score by Age Group  
 
 ### M — Multivariate Analysis
-- Correlation heatmap
-- Pair plot
-- Multi-feature segmentation visuals
+- Correlation Heatmap (relationships between numerical variables)
+- Pair Plot (pattern discovery across multiple features)
 
 ---
 
-## 📊 Visual Results
+## 📊 Visual Results (UBM Order)
 
-### 1) Credit Score Distribution
+### ✅ U — Univariate Analysis
 
+#### 1) Credit Score Distribution (Target Variable)
 <img src="Screenshots/Credit_Score_Distribution.png" width="750">
 
 ---
 
-### 2) Key Univariate Charts
+### ✅ B — Bivariate Analysis
 
+#### 2) Delayed Payments vs Credit Score (Risk Signal)
 <img src="Screenshots/Delayed_payments_vs_Credit_score.png" width="750">
 
 ---
 
-### 3) Key Bivariate Relationship Charts
-
+#### 3) Outstanding Debt vs Credit Score (Debt Burden)
 <img src="Screenshots/Doutstanding_debt_vs_credit_score.png" width="750">
 
 ---
 
-### 4) Correlation Heatmap
+#### 4) Credit Mix vs Credit Score (Segmentation Insight)
+<img src="Screenshots/Credit_mix_vs_credit_score.png" width="750">
 
+---
+
+#### 5) Credit Score by Age Group (Trend View)
+<img src="Screenshots/Credit_score_by_age_group.png" width="750">
+
+---
+
+### ✅ M — Multivariate Analysis
+
+#### 6) Correlation Heatmap (Feature Relationships)
 <img src="Screenshots/correlation_heatmap.png" width="750">
 
 ---
 
-### 5) Pair Plot (Multivariate View)
-
+#### 7) Pair Plot (Multivariate Patterns)
 <img src="Screenshots/pair_plot.png" width="750">
 
 ---
+
 
 ## Key Insights
 
