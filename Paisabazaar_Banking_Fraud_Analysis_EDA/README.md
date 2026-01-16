@@ -1,5 +1,9 @@
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)]()
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)]()
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=plotly&logoColor=white)]()
+[![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?logo=python&logoColor=white)]()
+[![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)]()
+
 # 📊 Paisabazaar Credit Score EDA | Customer Credit Risk Insights
 
 ## 🔎 Project Overview
