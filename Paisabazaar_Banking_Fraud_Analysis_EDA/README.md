@@ -1,14 +1,14 @@
+[![EDA](https://img.shields.io/badge/EDA-Exploratory%20Data%20Analysis-blueviolet)]()
+[![Credit Risk](https://img.shields.io/badge/Credit%20Risk-Analysis-red)]()
+[![Data Visualization](https://img.shields.io/badge/Data%20Visualization-Insights-informational)]()
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)]()
+[![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)]()
+[![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)]()
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)]()
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)]()
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=plotly&logoColor=white)]()
 [![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?logo=python&logoColor=white)]()
 [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)]()
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)]()
-[![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)]()
-[![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)]()
-[![Credit Risk](https://img.shields.io/badge/Credit%20Risk-Analysis-red)]()
-[![EDA](https://img.shields.io/badge/EDA-Exploratory%20Data%20Analysis-blueviolet)]()
-[![Data Visualization](https://img.shields.io/badge/Data%20Visualization-Insights-informational)]()
 
 # 📊 Paisabazaar Credit Score EDA | Customer Credit Risk Insights
 
